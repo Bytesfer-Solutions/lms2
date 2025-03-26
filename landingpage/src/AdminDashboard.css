@@ -1,0 +1,61 @@
+/* AdminDashboard.css */
+.dashboard-container {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .dashboard-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .icon {
+    font-size: 22px;
+    color: #4a90e2;
+  }
+  
+  .stat-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .dashboard-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-card ul li {
+    padding: 5px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
